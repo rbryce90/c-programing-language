@@ -2,7 +2,14 @@
 
 int main(int argc, char* argv[]){ 
     
-    printf("Hello world!");
-    
+   int c; 
+
+   c = getchar(); 
+   
+   while (c != EOF){
+        putchar(c);
+        c = getchar();
+   }
+
     return 0;
 }
